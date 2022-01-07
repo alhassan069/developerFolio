@@ -11,10 +11,10 @@ const illustration = {
 };
 
 const greeting = {
-    username: "Saad Pasta",
+    username: "Alimul Hassan",
     title: "Hi all, I'm Alimul Hassan",
     subTitle: emoji(
-        "A passionate Full Stack Web Developer 🚀 having an experience of building Web with JavaScript / Reactjs / Nodejs / and some other cool libraries and frameworks."
+        "A passionate Full Stack Web Developer 🚀 having an experience of building Web apps with JavaScript / Reactjs / Nodejs / and some other cool libraries and frameworks."
     ),
     resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
@@ -23,13 +23,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-    github: "https://github.com/saadpasta",
-    linkedin: "https://www.linkedin.com/in/saadpasta/",
-    gmail: "saadpasta70@gmail.com",
-    gitlab: "https://gitlab.com/saadpasta",
-    facebook: "https://www.facebook.com/saad.pasta7",
-    medium: "https://medium.com/@saadpasta",
-    stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+    github: "https://github.com/alhassan069",
+    linkedin: "https://www.linkedin.com/in/alhassan069/",
+    gmail: "alhassan069@gmail.com",
+    // gitlab: "https://gitlab.com/alhassan069",
+    facebook: "https://www.facebook.com/alhassan069",
+    medium: "https://medium.com/@alhassan069",
+    // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
     // Instagram, Twitter and Kaggle are also supported in the links!
     // To customize icons and social links, tweak src/components/SocialMedia
     display: true // Set true to display this section, defaults to false
@@ -112,7 +112,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-    display: true, // Set false to hide this section, defaults to true
+    display: false, // Set false to hide this section, defaults to true
     schools: [{
             schoolName: "Harvard University",
             logo: require("./assets/images/harvardLogo.png"),
@@ -198,7 +198,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-    title: "Big Projects",
+    title: "Projects",
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
     projects: [{
             image: require("./assets/images/saayaHealthLogo.webp"),
