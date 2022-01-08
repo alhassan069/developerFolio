@@ -29,7 +29,7 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           {/* <span className="grey-color"> &lt;</span> */}
-          <img src={AlLogo} className="myIma"/>
+          <img src={AlLogo}  alt="alhassan069" className="myIma"/>
           {/* <span className="logo-name">{greeting.username}</span> */}
           {/* <span className="grey-color">/&gt;</span> */}
         </a>
