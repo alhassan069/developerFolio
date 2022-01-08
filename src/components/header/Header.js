@@ -5,10 +5,8 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import AlLogo from "../../assets/images/alimul_logo.png"
 import {
-  greeting,
   workExperiences,
   skillsSection,
-  openSource,
   bigProjects,
   blogSection,
   talkSection,
