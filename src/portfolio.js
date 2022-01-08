@@ -16,7 +16,7 @@ const greeting = {
     subTitle: emoji(
         "A passionate Full Stack Web Developer 🚀 having an experience of building Web apps with JavaScript / Reactjs / Nodejs / and some other cool libraries and frameworks."
     ),
-    resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    resumeLink: "https://drive.google.com/file/d/126q_0fmhMFd_Lsa4dKhPOQZF20BMbapf/view?usp=sharing", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -42,11 +42,11 @@ const skillsSection = {
     subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
     skills: [
         emoji(
-            "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+            "⚡ Develop highly interactive Front end / User Interfaces for web applications"
         ),
-        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+        emoji("⚡ Make scalable backend with ExpressJS and MongoDB"),
         emoji(
-            "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+            "⚡ Integration of third party services AWS"
         )
     ],
 
@@ -62,12 +62,20 @@ https://fontawesome.com/icons?d=gallery */
             fontAwesomeClassname: "fab fa-css3-alt"
         },
         {
-            skillName: "sass",
-            fontAwesomeClassname: "fab fa-sass"
-        },
-        {
             skillName: "JavaScript",
             fontAwesomeClassname: "fab fa-js"
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "fab fa-java"
+        },
+        {
+            skillName: "python",
+            fontAwesomeClassname: "fab fa-python"
+        },
+        {
+            skillName: "MongoDB",
+            fontAwesomeClassname: "fas fa-database"
         },
         {
             skillName: "reactjs",
@@ -78,33 +86,13 @@ https://fontawesome.com/icons?d=gallery */
             fontAwesomeClassname: "fab fa-node"
         },
         {
-            skillName: "swift",
-            fontAwesomeClassname: "fab fa-swift"
-        },
-        {
             skillName: "npm",
             fontAwesomeClassname: "fab fa-npm"
-        },
-        {
-            skillName: "sql-database",
-            fontAwesomeClassname: "fas fa-database"
         },
         {
             skillName: "aws",
             fontAwesomeClassname: "fab fa-aws"
         },
-        {
-            skillName: "firebase",
-            fontAwesomeClassname: "fas fa-fire"
-        },
-        {
-            skillName: "python",
-            fontAwesomeClassname: "fab fa-python"
-        },
-        {
-            skillName: "docker",
-            fontAwesomeClassname: "fab fa-docker"
-        }
     ],
     display: true // Set false to hide this section, defaults to true
 };
@@ -192,7 +180,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
     showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -201,24 +189,33 @@ const bigProjects = {
     title: "Projects",
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
     projects: [{
-            image: require("./assets/images/saayaHealthLogo.webp"),
-            projectName: "Saayahealth",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/Ajio.png"),
+            projectName: "Ajio Clone",
+            projectDesc: "Fully functional clone website of ajio.com made using HTML, CSS , JavaScript and tailwind.",
             footerLink: [{
                     name: "Visit Website",
-                    url: "http://saayahealth.com/"
+                    url: "https://ajio/alimulhassan.com",
+                },
+                {
+                  name:"GitHub",
+                  url:"https://github.com/alhassan069/AJIO"
                 }
                 //  you can add extra buttons here.
+
             ]
         },
         {
-            image: require("./assets/images/nextuLogo.webp"),
-            projectName: "Nextu",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/bigbasket.png"),
+            projectName: "BigBasket clone",
+            projectDesc: "Clone of Bigbasket website using HTML, CSS and JavaScript",
             footerLink: [{
                 name: "Visit Website",
-                url: "http://nextu.se/"
-            }]
+                url: "https://bigbasket.alimulhassan.com"
+            },{
+              name: "GitHub",
+              url: "https://github.com/alhassan069/BigBasket_clone"
+          }
+          ]
         }
     ],
     display: true // Set false to hide this section, defaults to true
@@ -292,7 +289,7 @@ const blogSection = {
             description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
         }
     ],
-    display: false // Set false to hide this section, defaults to true
+    display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
