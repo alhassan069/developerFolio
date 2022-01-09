@@ -194,7 +194,7 @@ const bigProjects = {
             projectDesc: "Fully functional clone website of ajio.com made using HTML, CSS , JavaScript and tailwind.",
             footerLink: [{
                     name: "Visit Website",
-                    url: "https://ajio/alimulhassan.com",
+                    url: "https://ajio.alimulhassan.com",
                 },
                 {
                   name:"GitHub",
