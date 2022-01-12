@@ -46,7 +46,7 @@ const skillsSection = {
         ),
         emoji("⚡ Make scalable backend with ExpressJS and MongoDB"),
         emoji(
-            "⚡ Integration of third party services AWS"
+            "⚡ Integration of third party services with AWS"
         )
     ],
 
@@ -126,7 +126,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-    viewSkillBars: true, //Set it to true to show Proficiency Section
+    viewSkillBars: false, //Set it to true to show Proficiency Section
     experience: [{
             Stack: "Frontend/Design", //Insert stack or technology you have experience in
             progressPercentage: "90%" //Insert relative proficiency in percentage
@@ -187,11 +187,11 @@ const openSource = {
 
 const bigProjects = {
     title: "Projects",
-    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    subtitle: "Cloned Website Projects",
     projects: [{
             image: require("./assets/images/Ajio.png"),
             projectName: "Ajio Clone",
-            projectDesc: "Fully functional clone website of ajio.com made using HTML, CSS , JavaScript and tailwind.",
+            projectDesc: "This is a website cloning project of ajio.com. We have made this fully functional website using html, CSS , JavaScript and tailwind.",
             footerLink: [{
                     name: "Visit Website",
                     url: "https://ajio.alimulhassan.com",
@@ -207,7 +207,7 @@ const bigProjects = {
         {
             image: require("./assets/images/bigbasket.png"),
             projectName: "BigBasket clone",
-            projectDesc: "Clone of Bigbasket website using HTML, CSS and JavaScript",
+            projectDesc: "This is clone of bigbasket.com where you can see a wide range of products and you can take a look and buy if you like the product.",
             footerLink: [{
                 name: "Visit Website",
                 url: "https://bigbasket.alimulhassan.com"
