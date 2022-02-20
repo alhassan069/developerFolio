@@ -66,8 +66,8 @@ https://fontawesome.com/icons?d=gallery */
             fontAwesomeClassname: "fab fa-js"
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "fab fa-java"
+            skillName: "Java",
+            fontAwesomeClassname: "fab fa-java"
         },
         {
             skillName: "python",
@@ -191,14 +191,14 @@ const bigProjects = {
     projects: [{
             image: require("./assets/images/Ajio.png"),
             projectName: "Ajio Clone",
-            projectDesc: "This is a website cloning project of ajio.com. We have made this fully functional website using html, CSS , JavaScript and tailwind.",
+            projectDesc: "This is a website cloning project of ajio.com. We have made this fully functional website using HTML, CSS , JavaScript and Tailwind.",
             footerLink: [{
                     name: "Visit Website",
                     url: "https://ajio.alimulhassan.com",
                 },
                 {
-                  name:"GitHub",
-                  url:"https://github.com/alhassan069/AJIO"
+                    name: "GitHub",
+                    url: "https://github.com/alhassan069/AJIO"
                 }
                 //  you can add extra buttons here.
 
@@ -207,15 +207,14 @@ const bigProjects = {
         {
             image: require("./assets/images/bigbasket.png"),
             projectName: "BigBasket clone",
-            projectDesc: "This is clone of bigbasket.com where you can see a wide range of products and you can take a look and buy if you like the product.",
+            projectDesc: "This is clone of bigbasket.com where you can see a wide range of products and you can take a look and buy if you like the product. I have made this project using HTML, CSS and JavaScript",
             footerLink: [{
                 name: "Visit Website",
                 url: "https://bigbasket.alimulhassan.com"
-            },{
-              name: "GitHub",
-              url: "https://github.com/alhassan069/BigBasket_clone"
-          }
-          ]
+            }, {
+                name: "GitHub",
+                url: "https://github.com/alhassan069/BigBasket_clone"
+            }]
         }
     ],
     display: true // Set false to hide this section, defaults to true
